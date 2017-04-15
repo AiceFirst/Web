@@ -1,0 +1,107 @@
+* {margin: 0; padding: 0;}
+body{
+    background-color: rgba(23, 23, 23, 0.78); /* Цвет фона веб-страницы */
+    color: #d9d9d9;
+    font-family: 'PT Sans', sans-serif;
+
+   }
+
+
+body p {
+    padding-bottom: 20px;
+
+}
+body br{
+    line-height: 10px ;
+}
+
+.title, .static h2, .static h1{
+    font-size: 200%;
+    font-family: 'Zapf Chancery', cursive;
+}
+.cars{
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: wrap-reverse;              /* default value; can be omitted */
+    justify-content: space-between; /* switched from default (flex-start, see below) */
+}
+.static p{
+        color: #d9d9d9;
+
+}
+
+
+hr{
+    height: 2px;
+    border: dashed;
+    color: #818180;
+    background: #fafbff;
+    margin: 7px;
+    /* чтобы в IE6 устранить отступ по умолчанию */
+    width: 98%;
+}
+
+.fc-item div{
+   padding-bottom: 10px;
+
+}
+
+
+.benefits li {
+    margin-left: 240px;
+    white-space: nowrap;
+
+}
+.benefits div.title {
+    margin-left: 230px;
+}
+
+.forms title{
+   padding-left: 40px;
+
+}
+
+.littitle p{
+    margin-left: 240px;
+    white-space: nowrap;
+}
+.hire-info div{
+     display: flex;
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: wrap-reverse;              /* default value; can be omitted */
+    justify-content: space-between;
+    margin-right: 170px;
+    margin-left: 170px;
+
+}
+
+.fc-link a{
+    color: #30d9d8;
+    padding-left: 20px;
+
+
+}
+
+
+.menu-icon a{ text-decoration: none;
+    color: #caca34;
+
+
+}
+
+@font-face {
+    font-family: 'cuprumregular';
+    src: url('../static/cuprum/CuprumRegular/CuprumRegular.eot');
+    src: url('../static/cuprum/CuprumRegular/CuprumRegular.woff') format('woff'),
+         url('../static/cuprum/CuprumRegular/CuprumRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body h1{
+    text-align: center;
+    line-height: 3;
+    font-family: 'cuprumregular';
+    font-size: 300% ;
+	text-decoration: none;
+}
